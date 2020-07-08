@@ -28,7 +28,8 @@
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "html-webpack-plugin": "^4.3.0"
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

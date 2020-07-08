@@ -38,7 +38,15 @@ const configBuilder = (options = {}) => {
       rules: [
         {
           test: /\.css$/i,
-          use: ['css-loader'],
+          use: [
+            {
+              loader: 'style-loader',
+              options: {
+                injectType: 'singletonStyleTag',
+              },
+            },
+            'css-loader',
+          ],
         },
       ],
     },
