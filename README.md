@@ -1,0 +1,1 @@
+Empty simple convenient environment for writing something in javascript
